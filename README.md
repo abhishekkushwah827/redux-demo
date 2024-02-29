@@ -5,10 +5,10 @@ Managing state in large-scale applications can become complex as the application
 
 Store: The store holds the entire state tree of your application. You create a Redux store using the createStore function from Redux.
 
-import { createStore } from 'redux';
+```import { createStore } from 'redux';
 import rootReducer from './reducers'; // assuming you have your reducers defined
 
-const store = createStore(rootReducer);
+const store = createStore(rootReducer);```
 
 Actions: Actions are plain JavaScript objects that describe what happened in your application. You define action types to represent different actions that can occur.
 
