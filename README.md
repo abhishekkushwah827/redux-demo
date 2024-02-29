@@ -51,6 +51,7 @@ Redux is beneficial in scenarios where you have:
 Large-scale applications with complex state requirements.
 Shared state that needs to be accessed across multiple components.
 Need for predictable state management for debugging and testing.
+
 **4. Old Way vs. Redux Toolkit**:
 Redux Toolkit simplifies Redux development by reducing boilerplate code and providing utilities to simplify common tasks. Let's compare creating a store with and without Redux Toolkit:
 
